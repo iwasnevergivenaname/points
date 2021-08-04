@@ -15,9 +15,9 @@ the app should run on 'localhost:3000'
 **POST /users/:id** - returns status code 201 if new user was successfully created.<br>
 
 #### Accounts
-**GET /users/:id/account** - returns an object displaying a users updated points balance.<br>
-**POST /users/:id/add** - returns status code 201 if the transactions in the request body were successfully added to users account.<br>
-**POST /users/:id/spend** - returns an object displaying how the points, specified in the request body, taken from each payer with an available balance.<br>
+**GET /users/:id/accounts** - returns an object displaying a users updated points balance.<br>
+**POST /users/:id/accounts/add** - returns status code 201 if the transactions in the request body were successfully added to users account.<br>
+**POST /users/:id/accounts/spend** - returns an object displaying how the points, specified in the request body, taken from each payer with an available balance.<br>
 
 ## Models
 #### Store
